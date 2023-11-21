@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    background-color: #FFC045;
+  display: flex;
+  justify-content: space-between;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 100%;
+ 
+}
+.icon-burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 100px;
+    
+}
+.icon-burger a {
+    text-decoration: none;
+    color: #3D2514;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: Anton;
+    letter-spacing: .5rem;
+
+    
+
+}
+.mega-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-right: 100px;
+    gap: 15px;
+   
+}
+.express{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.express p{
+    font-weight: 500;
+    color: #3D2514;
+    letter-spacing:.5rem;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: #3D2514;
+    font-size: 1rem;
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+    padding: 2px;
+    z-index: 2;
+    transition: all 1s;
+    
+   
+}
+.nav a:hover{
+    color: red;
+    
+}
+
+
+
+
+
+/* banner */
+.banner{
+    display: flex;
+    background-color: #FFC045;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 1;
+
+   
+    width: 100%;
+    
+
+    
+}
+.banner p {
+    font-size: 1rem;
+    border: #3D2514;
+    border-style: dashed;
+    display: inline-block;
+    padding: 10px;
+   
+}
+.banner h1 {
+    color: #3D2514;
+    font-size: 15rem;
+    font-weight: bolder;
+    letter-spacing: 1.5rem;
+   text-shadow: 5px 5px white;
+   font-family: Anton;
+   
+}
+.banner h2{
+    color: #3D2514;
+    font-size: 7rem;
+    font-weight: bolder;
+   font-family: Anton;
+    letter-spacing: 1rem;
+    text-shadow: 5px 5px white;
+    margin-left: 28%;
+}
+.banner-image{
+    border: #3D2514;
+    flex-grow: 1;
+    height: 600px;
+    padding: 50px;
+    min-width: 200px;
+    width: 100%;
+    
+   
+   
+   
+    
+   
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 100px;
+  
+}
+
+
+
+
+
+/* Three picture */
+.three-picture{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    padding: 50px;
+    gap :50px
+}
+.tryit-first img{
+    height: 450px;
+    width: 40vw;
+    
+    
+}
+.tryit-first{
+    position: relative;
+}
+.tryit-first h1 {
+    position: absolute;
+    font-size: 3rem;
+    /* font-family: Anton; */
+     color: aliceblue;
+     letter-spacing: 0.4rem;
+     margin: 20px;
+}
+.tryit-first h2{
+    position: absolute;
+    font-size: 3rem;
+    /* font-family: Anton; */
+     color: aliceblue;
+     letter-spacing: 0.4rem;
+     margin-top: 60px;
+     margin-left: 20PX;
+}
+
+
+.tryit-second {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 100px;
+    
+    gap: 20px;
+    
+}
+.first img{
+    height: 210px;
+    width: 100%;
+    width: 100%;
+    
+}
+.second img{
+    height: 210px;
+    width: 100%;
+   
+}
+.first,.second{
+    position: relative;
+}
+
+
+.first h1 {
+    position: absolute;
+    font-size: 3rem;
+    /* font-family: Anton; */
+     color: aliceblue;
+     letter-spacing: 0.4rem;
+     margin: 20px;
+}
+.second h1 {
+    position: absolute;
+    font-size: 3rem;
+    /* font-family: Anton; */
+     color: aliceblue;
+     letter-spacing: 0.4rem;
+     margin: 20px;
+}
+.first h2{
+    position: absolute;
+    font-size: 3rem;
+    /* font-family: Anton; */
+     color: aliceblue;
+     letter-spacing: 0.4rem;
+     margin-top: 60px;
+     margin-left: 20PX;
+}
+.second h2{
+    position: absolute;
+    font-size: 3rem;
+    /* font-family: Anton; */
+     color: aliceblue;
+     letter-spacing: 0.4rem;
+     margin-top: 60px;
+     margin-left: 20PX;
+}
+
+
+
+/* choose tasty burgers */
+
+
+ .choose {
+    display: flex;
+    height: 30vh;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+ }
+ .choose .yellow-box h1 {
+       background-color: #FFC045;
+       padding: 10px;
+       font-size: 1rem;
+       font-family: sans-serif;
+ }
+ .choose h1 {
+    color: #3D2514;
+    font-size: 6rem;
+    font-family: Anton;
+ }
+.choose p{
+    font-size: 2rem;
+    font-family: Anton;
+    color:rgb(47, 48, 49)
+}
+
+
+
+
+
+
+
+
+
+/* three-burgers */
+
+
+.three-burgers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    
+}
+.three-burgers img{
+    height: 300px;
+    width: 90%;
+   
+}
+.burgerone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap : 20px;
+    
+}
+
+
+.burgerone h1{
+    color: #3D2514;
+    font-size: 3rem;
+}
+.burgerone p{
+    color: rgb(70, 67, 63);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.burgerone button{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+}
+
+
+.burgerone button:hover{
+    background-color:  rgb(110, 0, 0);
+}
+
+
+.burgerTWO{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 20px;
+}
+
+.burgerTWO h1{
+    color: #3D2514;
+    font-size: 3rem;
+}
+.burgerTWO p{
+    color: rgb(70, 67, 63);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.burgerTWO button{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+}
+.burgerTWO button:hover{
+    background-color:  rgb(110, 0, 0);
+}
+
+
+.burgerTHREE{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 20px;
+}
+
+.burgerTHREE h1{
+    color: #3D2514;
+    font-size: 3rem;
+}
+.burgerTHREE p{
+    color: rgb(70, 67, 63);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.burgerTHREE button{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+}
+.burgerTHREE button:hover{
+    background-color:  rgb(110, 0, 0);
+}
+
+
+/* Discover frenchfry */
+
+.discover{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    /* border-bottom: 10px ; */
+    box-shadow: 0px 0px 50px rgb(87, 87, 87);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    
+}
+
+.threeline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 800px;
+    margin-bottom: 10%;
+   padding: 30px;
+    
+   
+    
+
+}
+.threeline h1{
+   font-size: 6rem;
+   font-family: Anton;
+   color: #3D2514;
+  
+}
+.threeline p{
+    color: rgb(70, 67, 63);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.threeline h6 {
+    font-size: 2rem;
+    font-family: Anton;
+    letter-spacing: 1rem;
+}
+.frenchfry{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+.frenchfry img{
+  width: 100%;
+    
+}
+
+/* reservation */
+
+.reservation {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-top: 200px;
+    background-image: url(./Group\ 5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book h2 {
+    font-size: 2rem;
+    font-family: Anton;
+    letter-spacing: 1rem;
+    color: #3D2514;
+}
+.book h1{
+    font-size: 6rem;
+   font-family: Anton;
+   color: #3D2514;
+   letter-spacing: 0.5rem;
+}
+
+.form{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    gap: px;
+    justify-content: center;
+    /* border: 5px solid; */
+    align-items: flex-start;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.formone{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    
+   
+    
+}
+.form input{
+   height: 40px;
+   width: 100%;
+   text-align: left;
+   font: bold;
+   font-family: Anton;
+   border: 2px solid #bbbbbb;
+   letter-spacing: 0.2rem;
+   padding-left: 5px;
+  
+   
+
+   
+   
+}
+.form button{
+    padding: 10px;
+    background-color: red;
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Anton;
+    letter-spacing: 0.2rem;
+    color: white;
+    height: 40px;
+    cursor: pointer ;
+}
+.formtwo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    background-image: url(./Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\).png);
+    width: 100%;
+    height: 80vh;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    height: 100%;
+    width: 50%;
+    border: 2px solid #bbbbbb;
+    
+}
+.burger-house{
+    display: flex;
+    flex-direction: flex;
+    gap: 20px;
+    text-align: justify;
+    margin-top: 100px;
+   
+   
+}
+.burger-house h1 {
+    color: white;
+    font-size: 4rem;
+}
+.burger-house img{
+    height: 50px;
+    width: 50px;
+}
+.para p{
+    display: inline-block;
+    font-size: 1.3rem;
+     
+    color :white
+    
+}
+.copy{
+   margin-top: auto;
+}
+.copy p {
+    /* width: 300px; */
+    color :white;
+    
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    height: 100%;
+    width: 50%;
+    border: 2px solid #bbbbbb;
+    
+    
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+    margin-top: 100px;
+    
+}
+.location a {
+    text-decoration: none;
+}
+.location a h1 {
+    font-size: 3rem;
+    text-decoration: none;
+    color:white;
+    
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+}
+.email a {
+    text-decoration: none;
+
+}
+.email a h1 {
+    font-size: 3rem;
+    text-decoration: none;
+    color:white;
+}
+.social{
+    display: flex;
+    align-self: flex-end;
+    margin-top: auto;
+    gap: 5px;
+    
+}
+/* responsive */
+
+@media  screen and (max-width: 960px){
+    *{
+        font-size: 5px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: #3D2514;
+        font-size: 2rem;
+        letter-spacing: .3rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-bottom: 10px;
+       
+    }
+
+}
+
+
+
+
